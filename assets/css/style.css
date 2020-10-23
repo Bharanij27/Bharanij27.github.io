@@ -1416,7 +1416,7 @@ footer .credits a {
 }
 
 
-@media screen and (max-width: 767px){
+@media (min-width : 100px) and (max-width: 767px){
   .card img{
     height : auto !important;
   }
