@@ -1414,3 +1414,14 @@ footer .credits a {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
+
+
+@media screen and (max-width: 767px){
+  .card img{
+    height : auto !important;
+  }
+
+  .card{
+    height: 95%;
+  }
+}
