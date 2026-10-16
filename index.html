@@ -1,443 +1,1023 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Bharani</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <title>Bharanidharan Boopalan | Senior Full Stack, Cloud &amp; AI Systems Engineer</title>
+  <meta name="description"
+    content="Portfolio of Bharanidharan Boopalan — Senior Full Stack Software Engineer with 5+ years of experience architecting cloud-native AWS systems, multi-region serverless platforms, and multi-agent AI systems using Model Context Protocol (MCP).">
+  <meta name="keywords"
+    content="Bharanidharan Boopalan, Senior Software Engineer, Full Stack Engineer, AWS Solutions Architect, Generative AI Developer, Model Context Protocol, MCP, Multi-Agent AI, Java, Spring Boot, Node.js, React, Distributed Systems, Serverless">
+  <meta name="author" content="Bharanidharan Boopalan">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bharanij27.github.io/">
+  <meta property="og:title" content="Bharanidharan Boopalan — Senior Full Stack, Cloud &amp; AI Engineer">
+  <meta property="og:description"
+    content="5+ years building cloud-native distributed systems on AWS, multi-region serverless architectures, and MCP-powered multi-agent diagnostic systems.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bharanidharan Boopalan — Senior Full Stack, Cloud &amp; AI Engineer">
+  <meta name="twitter:description"
+    content="5+ years building cloud-native distributed systems on AWS, multi-region serverless architectures, and MCP-powered multi-agent diagnostic systems.">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='monospace' font-weight='700' font-size='28'%3EBB%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main Portfolio Stylesheet -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: DevFolio - v2.3.0
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body id="page-top">
 
-  <!-- ======= Header/ Navbar ======= -->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+  <!-- Ambient Background Glows -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <!-- ======= Header / Navbar ======= -->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav" aria-label="Primary navigation">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">BharaniJ27</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
+      <a class="navbar-brand js-scroll" href="#page-top">
+        <span class="brand-monogram">BB</span>
+        <span class="brand-text">Bharanidharan<span class="brand-dot">.dev</span></span>
+      </a>
+
+      <div class="nav-Utilities d-flex align-items-center order-lg-3 ml-auto ml-lg-3">
+        <button id="themeToggle" class="theme-toggle-btn" type="button" aria-label="Toggle dark or light theme"
+          title="Switch theme">
+          <i class="bx bx-sun theme-icon-light"></i>
+          <i class="bx bx-moon theme-icon-dark"></i>
+        </button>
+        <a href="assets/Bharanidharan_Boopalan_Resume.pdf" download="Bharanidharan_Boopalan_Resume.pdf"
+          class="btn-nav-resume d-none d-sm-inline-flex align-items-center ml-2">
+          <i class="bx bx-download mr-1"></i> Resume
+        </a>
+        <button class="navbar-toggler collapsed ml-2" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse collapse justify-content-end order-lg-2" id="navbarDefault">
+        <ul class="navbar-nav align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
+            <a class="nav-link js-scroll active" href="#home">Overview</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link js-scroll" href="#about">Impact</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
-          </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#Projects">Projects</a>
+            <a class="nav-link js-scroll" href="#experience">Experience</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#projects">Case Studies &amp; Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#skills">Stack &amp; Certs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#recognition">Recognition</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item d-sm-none mt-2">
+            <a href="assets/Bharanidharan_Boopalan_Resume.pdf" download="Bharanidharan_Boopalan_Resume.pdf"
+              class="btn-nav-resume d-inline-flex align-items-center">
+              <i class="bx bx-download mr-1"></i> Download Resume (PDF)
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- ======= Intro Section ======= -->
-  <section id="home" class="home-mf sect-pt4 route">
-    <div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro.jpg)">
-      <div class="overlay-itro"></div>
-      <div class="intro-content display-table">
-        <div class="table-cell">
-          <div class="container">
-            <h1 class="intro-title mb-4">I&#x2019m Bharanidharan</h1>
-            <p class="intro-subtitle"><span class="text-slider-items">Engineer,Web Developer,Frontend
-                Developer</span><strong class="text-slider"></strong></p>
-            <div class="social-links mt-3 text-center">
-              <a href="https://github.com/bharanij27" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="https://www.facebook.com/bharani.dharan.370515" target="_blank" class="facebook"><i
-                  class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/bharanij27/" target="_blank" class="instagram"><i
-                  class="bx bxl-instagram"></i></a>
+  <!-- ======= Hero / Intro Section ======= -->
+  <header id="home" class="hero-section route">
+    <div class="container">
+      <div class="row align-items-center hero-row">
+        <div class="col-lg-7">
+          <div class="hero-badge-row mb-3">
+            <span class="status-pill">
+              <span class="status-dot"></span>
+              Senior Software Engineer @ Freshworks
+            </span>
+            <span class="location-pill">
+              <i class="bx bx-map-pin"></i> Chennai, India
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Building Resilient <span class="text-gradient">Cloud-Native</span> &amp; <span
+              class="text-gradient-accent">Multi-Agent AI</span> Systems.
+          </h1>
+
+          <p class="hero-typed-line">
+            <span class="mono-prefix">&gt;</span>
+            <span class="text-slider-items">Senior Full Stack Software Engineer,Cloud &amp; Serverless Architect (AWS),Multi-Agent AI &amp; MCP Systems Builder,Distributed Systems &amp; Tech Lead</span>
+            <strong class="text-slider"></strong>
+          </p>
+
+          <p class="hero-lead">
+            Senior Full Stack Engineer with <strong>5+ years</strong> of experience architecting high-availability
+            serverless and Kubernetes backends on AWS, leading agile engineering teams, and designing evidence-first
+            <strong>Model Context Protocol (MCP)</strong> multi-agent diagnostic systems for enterprise scale.
+          </p>
+
+          <div class="hero-cta-group d-flex flex-wrap align-items-center">
+            <a href="#projects" class="btn-primary-glow js-scroll">
+              Explore Architecture &amp; Work <i class="bx bx-right-arrow-alt ml-1"></i>
+            </a>
+            <a href="assets/Bharanidharan_Boopalan_Resume.pdf" download="Bharanidharan_Boopalan_Resume.pdf"
+              class="btn-secondary-glass">
+              <i class="bx bx-file-blank mr-1"></i> Download Resume
+            </a>
+            <div class="hero-socials d-flex align-items-center">
+              <a href="https://www.linkedin.com/in/bharanidharan-boopalan" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn Profile" title="LinkedIn">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://github.com/bharanij27" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub Profile" title="GitHub">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="mailto:bharanidharan19519@gmail.com" aria-label="Send Email" title="Email Bharanidharan">
+                <i class="bx bx-envelope"></i>
+              </a>
             </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <!-- Interactive System Architecture Snapshot Card -->
+          <div class="arch-terminal-card reveal-on-scroll">
+            <div class="arch-terminal-header">
+              <div class="terminal-dots">
+                <span class="dot-red"></span>
+                <span class="dot-amber"></span>
+                <span class="dot-green"></span>
+              </div>
+              <span class="terminal-title">system-profile.yaml</span>
+              <span class="terminal-tag">v2026.4</span>
+            </div>
+            <div class="arch-terminal-body">
+              <div class="code-line"><span class="c-key">engineer:</span> <span class="c-str">"Bharanidharan Boopalan"</span></div>
+              <div class="code-line"><span class="c-key">role:</span> <span class="c-str">"Senior Software Engineer"</span></div>
+              <div class="code-line"><span class="c-key">experience:</span> <span class="c-num">5+ years</span> <span class="c-comment"># Freshworks, Presidio, Zoho</span></div>
+              <div class="code-line mt-2"><span class="c-key">core_domains:</span></div>
+              <div class="code-line indent-1">- <span class="c-val">Multi-Agent AI &amp; MCP Orchestration</span></div>
+              <div class="code-line indent-1">- <span class="c-val">AWS Multi-Region Serverless &amp; EKS</span></div>
+              <div class="code-line indent-1">- <span class="c-val">Java (Spring Boot) / Node.js / React</span></div>
+              <div class="code-line indent-1">- <span class="c-val">Event-Driven Microservices (SQS/SNS/Redis)</span></div>
+              <div class="code-line mt-2"><span class="c-key">verified_credentials:</span></div>
+              <div class="code-line indent-1"><span class="c-badge">AWS GenAI Developer Pro</span></div>
+              <div class="code-line indent-1"><span class="c-badge">AWS Solutions Architect Assoc</span></div>
+              <div class="code-line indent-1"><span class="c-badge">GCP Associate Cloud Engineer</span></div>
+              <div class="code-line indent-1"><span class="c-badge">Azure AI Engineer Associate</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quantified Impact Metrics Strip -->
+      <div class="metrics-bento-strip reveal-on-scroll">
+        <div class="row no-gutters">
+          <div class="col-6 col-lg-3 metric-cell">
+            <div class="metric-value"><span class="counter">80</span>%</div>
+            <div class="metric-label">Support Query Deflection</div>
+            <p class="metric-sub">Via read-only MCP multi-agent L2 diagnostic engine</p>
+          </div>
+          <div class="col-6 col-lg-3 metric-cell">
+            <div class="metric-value"><span class="counter">70</span>%</div>
+            <div class="metric-label">Faster Dev &amp; Debug Cycle</div>
+            <p class="metric-sub">AI-assisted workflows &amp; automated JUnit test generation</p>
+          </div>
+          <div class="col-6 col-lg-3 metric-cell">
+            <div class="metric-value"><span class="counter">50</span>%</div>
+            <div class="metric-label">Platform Scalability Gain</div>
+            <p class="metric-sub">Migrating enterprise NLP systems to AWS EKS &amp; Lambda</p>
+          </div>
+          <div class="col-6 col-lg-3 metric-cell">
+            <div class="metric-value">&lt;<span class="counter">5</span>m</div>
+            <div class="metric-label">Mean Time to Respond</div>
+            <p class="metric-sub">Zero-downtime multi-region releases &amp; Splunk alerting</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- End Intro Section -->
+  </header>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
+    <!-- ======= Executive Summary & Engineering Pillars ======= -->
+    <section id="about" class="section-block route">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Bharanidharan Boopalan</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>bharanidharn19519@gmail.com</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">80%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">70%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVA</span> <span class="pull-right">70%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        A Little Bit About Myself &#128522;
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Hi&#8218 I&#x2019m Bharanidharan
-                    </p>
-                    <p class="lead">
-                      I am a computer science engineer who is interested in coding and exploring
-                      concepts that enhance my knowledge and career. Love to work in a group
-                    </p>
-                    <p class="lead">
-                      Worked as an intern for 4 months at ZOHO Corporation.
-                      Created projects using ReactJs and have basic knowledge on Ember Framework
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-eyebrow">Engineering Philosophy &amp; Impact</span>
+          <h2 class="section-title">Designed for Scale, Observability &amp; Autonomous Intelligence</h2>
+          <p class="section-subtitle">
+            Combining deep distributed backend fundamentals with modern agentic AI protocols to solve high-leverage
+            production problems.
+          </p>
         </div>
-      </div>
-    </section><!-- End About Section -->
 
-    <!-- ======= Services Section =======
-    <section id="service" class="services-mf pt-5 route">
-      <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="pillar-card reveal-on-scroll">
+              <div class="pillar-icon">
+                <i class="bx bx-bot"></i>
+              </div>
+              <h3 class="pillar-title">Multi-Agent AI &amp; MCP Systems</h3>
+              <p class="pillar-desc">
+                Architecting deterministic, evidence-first multi-agent systems using <strong>Model Context Protocol
+                  (MCP)</strong>, Amazon Bedrock, and RAG pipelines. Enforcing strict read-only safety boundaries,
+                JSON Schema contracts, and feedback-driven self-improvement loops that drove an 80% support adoption
+                increase.
               </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-monitor"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
+              <div class="pillar-tags">
+                <span>MCP</span>
+                <span>Multi-Agent</span>
+                <span>Amazon Bedrock</span>
+                <span>RAG</span>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-code-working"></i></span>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="pillar-card reveal-on-scroll">
+              <div class="pillar-icon">
+                <i class="bx bx-cloud-lightning"></i>
               </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-camera"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Photography</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
+              <h3 class="pillar-title">Cloud-Native &amp; Multi-Region AWS</h3>
+              <p class="pillar-desc">
+                Designing high-availability serverless and containerized backends across <strong>API Gateway, Lambda,
+                  Amazon EKS, DynamoDB, and Aurora MySQL</strong>. Provisioning reproducible infrastructure via
+                Terraform and CloudFormation with asynchronous SQS/SNS event-driven decoupling for zero-downtime
+                deployments.
+              </p>
+              <div class="pillar-tags">
+                <span>AWS Lambda</span>
+                <span>Amazon EKS</span>
+                <span>SQS / SNS</span>
+                <span>Terraform</span>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+
+          <div class="col-md-12 col-lg-4 mb-4">
+            <div class="pillar-card reveal-on-scroll">
+              <div class="pillar-icon">
+                <i class="bx bx-layer"></i>
               </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
-                <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
-                </p>
+              <h3 class="pillar-title">Full-Stack Execution &amp; Leadership</h3>
+              <p class="pillar-desc">
+                Delivering end-to-end features across <strong>Java 11+ (Spring Boot), Node.js (NestJS/Express), and
+                  React</strong>. Leading engineering squads from requirements and system design to CI/CD automation
+                (40% faster release cycles) and proactive observability with Splunk, CloudWatch, and Haystack.
+              </p>
+              <div class="pillar-tags">
+                <span>Java / Spring Boot</span>
+                <span>Node.js</span>
+                <span>React</span>
+                <span>CI/CD &amp; SRE</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-     -->
-    <!-- End Services Section -->
 
-    <!-- ======= Counter Section ======= -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!-- <section id="Projects" class="portfolio-mf sect-pt4 route">
+    <!-- ======= Experience Timeline Section ======= -->
+    <section id="experience" class="section-block section-alt route">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-eyebrow">Career Progression</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            5+ years of production impact across enterprise SaaS, cloud consulting, and product engineering.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+
+        <div class="timeline-wrapper">
+
+          <!-- Freshworks -->
+          <article class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot active-role"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header d-flex flex-wrap justify-content-between align-items-start">
+                <div>
+                  <span class="role-badge current">Current Role</span>
+                  <h3 class="timeline-role">Senior Software Engineer</h3>
+                  <h4 class="timeline-company">
+                    Freshworks <span class="company-location">&bull; Chennai, India</span>
+                  </h4>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+                <div class="timeline-period">
+                  <i class="bx bx-calendar"></i> Mar 2026 &ndash; Present
+                </div>
+              </div>
+
+              <div class="timeline-kpi-row">
+                <div class="kpi-chip">
+                  <strong>80%</strong> Query Deflection Rate
+                </div>
+                <div class="kpi-chip">
+                  <strong>80%</strong> Support Team Adoption Lift
+                </div>
+                <div class="kpi-chip">
+                  <strong>70%</strong> Dev &amp; Debug Cycle Reduction
+                </div>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <strong>Multi-Agent L2 Diagnostic Architecture (MCP):</strong> Accomplished resolution of
+                  <strong>80% of incoming support queries without human escalation</strong> by architecting a
+                  multi-agent, read-only L2 diagnostic system that analyzes support tickets, conversation histories,
+                  attachments, related incidents, and product telemetry via secure <strong>Model Context Protocol
+                    (MCP)</strong> integrations for evidence-first root-cause identification.
+                </li>
+                <li>
+                  <strong>Feedback-Driven Reasoning &amp; Guardrails:</strong> Accomplished an <strong>80% increase in
+                    support-team adoption</strong> by designing feedback-driven self-improvement into the system's
+                  reasoning loop, enforcing strict no-write investigation guardrails, and generating concise,
+                  role-specific diagnostic reports for support and engineering teams.
+                </li>
+                <li>
+                  <strong>AI-Accelerated Engineering &amp; Automated Testing:</strong> Accomplished a <strong>70%
+                    reduction in debugging and development cycle time</strong> by integrating Claude and GitHub Copilot
+                  into daily engineering workflows for code review, root-cause bug detection, feature delivery, and
+                  automated JUnit test suite generation.
+                </li>
+                <li>
+                  <strong>Enterprise Backend, Frontend &amp; Observability:</strong> Contributed to high-scale enterprise
+                  service management modules utilizing <strong>Redis</strong> for distributed caching,
+                  <strong>MySQL</strong> for relational persistence, rich-text client upload queueing, and
+                  <strong>CloudWatch, CloudTrail, and Haystack</strong> for distributed tracing and analytics
+                  reconciliation.
+                </li>
+              </ul>
+
+              <div class="timeline-stack">
+                <span>Model Context Protocol (MCP)</span>
+                <span>Multi-Agent Systems</span>
+                <span>Java</span>
+                <span>Node.js</span>
+                <span>React</span>
+                <span>Redis</span>
+                <span>MySQL</span>
+                <span>CloudWatch &amp; Haystack</span>
+                <span>JUnit</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Presidio -->
+          <article class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header d-flex flex-wrap justify-content-between align-items-start">
+                <div>
+                  <h3 class="timeline-role">Senior Software Engineer</h3>
+                  <h4 class="timeline-company">
+                    Presidio <span class="company-location">&bull; Chennai, India</span>
+                  </h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="bx bx-calendar"></i> Mar 2021 &ndash; Feb 2026 (5 Years)
+                </div>
+              </div>
+
+              <div class="timeline-kpi-row">
+                <div class="kpi-chip">
+                  <strong>Zero</strong> Deployment Downtime
+                </div>
+                <div class="kpi-chip">
+                  <strong>50%</strong> Scalability Improvement
+                </div>
+                <div class="kpi-chip">
+                  <strong>40%</strong> Faster Release Cycles
+                </div>
+                <div class="kpi-chip">
+                  <strong>&lt;5 min</strong> Incident MTTR
+                </div>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <strong>Serverless Architecture &amp; Team Leadership:</strong> Led a team of 3 engineers to
+                  architect and deliver an enterprise client chatbot platform on schedule, owning end-to-end serverless
+                  infrastructure across <strong>AWS API Gateway, Lambda, DynamoDB (NoSQL), RDS (Aurora MySQL), and
+                    S3</strong> provisioned via <strong>CloudFormation and Terraform</strong>.
+                </li>
+                <li>
+                  <strong>High-Availability Multi-Region Event Mesh:</strong> Accomplished <strong>zero downtime during
+                    deployments</strong> by extending the backend into a multi-region active architecture using AWS
+                  Lambda with <strong>Amazon SQS and SNS</strong> for resilient, asynchronous event-driven service
+                  communication.
+                </li>
+                <li>
+                  <strong>NLP Platform Modernization (IBM Watson to Rasa on EKS):</strong> Accomplished a <strong>50%
+                    improvement in platform scalability</strong> under peak load by leading the architectural migration
+                  of an enterprise NLP chatbot platform to a modernized event-driven architecture on <strong>Amazon EKS
+                    (Kubernetes), Helm Charts, and AWS Lambda</strong>.
+                </li>
+                <li>
+                  <strong>CI/CD Automation &amp; Build Optimization:</strong> Accomplished a <strong>40% reduction in
+                    release cycle time</strong> over 4 years by engineering automated CI/CD pipelines across
+                  <strong>Jenkins, GitLab, and AWS CodePipeline</strong> while optimizing Gradle and Maven build graphs.
+                </li>
+                <li>
+                  <strong>Observability, Cloud Security &amp; Mentorship:</strong> Achieved an incident response time of
+                  <strong>under 5 minutes (MTTR)</strong> by building <strong>Splunk</strong> dashboards and
+                  threshold-based alerting; owned AWS networking/IAM security controls, sprint planning, requirements
+                  gathering, and junior engineer mentorship.
+                </li>
+              </ul>
+
+              <div class="timeline-stack">
+                <span>Java 11+ (Spring Boot)</span>
+                <span>Node.js (NestJS/Express)</span>
+                <span>AWS Lambda</span>
+                <span>API Gateway</span>
+                <span>Amazon EKS</span>
+                <span>DynamoDB &amp; Aurora RDS</span>
+                <span>SQS &amp; SNS</span>
+                <span>Terraform &amp; CloudFormation</span>
+                <span>Jenkins &amp; GitLab CI</span>
+                <span>Splunk</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Zoho -->
+          <article class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header d-flex flex-wrap justify-content-between align-items-start">
+                <div>
+                  <h3 class="timeline-role">Software Engineer Intern</h3>
+                  <h4 class="timeline-company">
+                    Zoho Corporation <span class="company-location">&bull; Chennai, India</span>
+                  </h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="bx bx-calendar"></i> Feb 2020 &ndash; Jul 2020
+                </div>
+              </div>
+
+              <div class="timeline-kpi-row">
+                <div class="kpi-chip">
+                  <strong>20%</strong> Faster Feature Delivery
+                </div>
+                <div class="kpi-chip">
+                  <strong>10+</strong> Reusable UI Components
+                </div>
+              </div>
+
+              <ul class="timeline-bullets">
+                <li>
+                  <strong>Reusable Component Library:</strong> Accomplished a <strong>20% reduction in feature
+                    development time</strong>, measured by component reuse across the frontend codebase, by designing
+                  and building <strong>10+ modular, responsive UI components in React</strong>.
+                </li>
+              </ul>
+
+              <div class="timeline-stack">
+                <span>React</span>
+                <span>JavaScript (ES6+)</span>
+                <span>UI Component Systems</span>
+                <span>HTML5 / CSS3</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Featured Case Studies & Full-Stack Projects Section ======= -->
+    <section id="projects" class="section-block route">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-eyebrow">Proof of Engineering</span>
+          <h2 class="section-title">Architecture Case Studies &amp; Interactive Projects</h2>
+          <p class="section-subtitle">
+            Production system architectures, algorithm visualizers, and live full-stack web applications with source
+            code.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="project-filter-bar text-center mb-5 reveal-on-scroll" role="tablist"
+          aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="featured" role="tab" aria-selected="true">
+            Featured &amp; Architecture
+          </button>
+          <button class="filter-btn" data-filter="architecture" role="tab" aria-selected="false">
+            System Case Studies
+          </button>
+          <button class="filter-btn" data-filter="fullstack" role="tab" aria-selected="false">
+            Full-Stack &amp; Interactive Apps
+          </button>
+          <button class="filter-btn" data-filter="all" role="tab" aria-selected="false">
+            All Work (13)
+          </button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="row" id="projectsGrid">
+
+          <!-- Case Study 1: Multi-Agent MCP Diagnostic System -->
+          <div class="col-lg-6 mb-4 project-card-col" data-category="featured architecture">
+            <div class="case-study-card h-100">
+              <div class="cs-top-bar">
+                <span class="cs-badge badge-ai"><i class="bx bx-network-chart"></i> AI Architecture Case Study</span>
+                <span class="cs-metric-pill">80% Query Deflection</span>
+              </div>
+              <h3 class="cs-title">MCP Multi-Agent L2 Diagnostic System</h3>
+              <p class="cs-summary">
+                An evidence-first, strictly read-only multi-agent diagnostic platform that autonomously investigates
+                complex enterprise L2 support escalations across multiple portals, codebases, and telemetry stores.
+              </p>
+
+              <div class="cs-architecture-box">
+                <div class="cs-arch-label">System Flow &amp; Key Technical Decisions</div>
+                <div class="cs-flow-steps">
+                  <span>Ticket &amp; Portal Normalizer</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>Scoped Read-Only MCP Adapters</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>Code &amp; Telemetry Correlator</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>Schema-Validated RCA Report</span>
+                </div>
+                <ul class="cs-highlights">
+                  <li><strong>Dual-Portal Credential Routing:</strong> Dynamically resolves host-scoped read adapters
+                    for multi-portal enterprise desks with strict URL canonicalization and zero-write guarantees.</li>
+                  <li><strong>Evidence-First Guardrails:</strong> Enforces JSON Schema contracts at every stage
+                    (request, ticket evidence, attachment inspection, and diagnosis output) with feedback-driven
+                    self-improvement loops.</li>
+                </ul>
+              </div>
+
+              <div class="cs-footer">
+                <div class="cs-tags">
+                  <span>Model Context Protocol (MCP)</span>
+                  <span>Python / AsyncIO</span>
+                  <span>Node.js</span>
+                  <span>JSON Schema</span>
+                  <span>LLMs</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+
+          <!-- Case Study 2: Multi-Region Serverless & EKS NLP Platform -->
+          <div class="col-lg-6 mb-4 project-card-col" data-category="featured architecture">
+            <div class="case-study-card h-100">
+              <div class="cs-top-bar">
+                <span class="cs-badge badge-cloud"><i class="bx bx-cloud"></i> Cloud Architecture Case Study</span>
+                <span class="cs-metric-pill">Zero-Downtime &bull; +50% Scale</span>
+              </div>
+              <h3 class="cs-title">Multi-Region AWS Serverless &amp; EKS Conversational Platform</h3>
+              <p class="cs-summary">
+                High-availability enterprise NLP platform migrated from IBM Watson to Rasa on Amazon EKS and
+                multi-region AWS Lambda, engineered for asynchronous resilience and sub-5-minute incident response.
+              </p>
+
+              <div class="cs-architecture-box">
+                <div class="cs-arch-label">System Flow &amp; Key Technical Decisions</div>
+                <div class="cs-flow-steps">
+                  <span>API Gateway</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>Multi-Region Lambda</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>SQS / SNS Event Bus</span>
+                  <i class="bx bx-right-arrow-alt"></i>
+                  <span>EKS (Rasa Helm) + DynamoDB/Aurora</span>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+                <ul class="cs-highlights">
+                  <li><strong>Asynchronous Decoupling:</strong> Leveraged SQS and SNS between ingestion Lambdas and EKS
+                    inference pods to absorb traffic spikes (+50% load capacity) and enable zero-downtime blue/green
+                    deployments.</li>
+                  <li><strong>IaC &amp; Observability:</strong> Provisioned end-to-end via Terraform and
+                    CloudFormation, paired with custom Splunk dashboards and threshold alerts (&lt;5m MTTR).</li>
+                </ul>
+              </div>
+
+              <div class="cs-footer">
+                <div class="cs-tags">
+                  <span>AWS Lambda</span>
+                  <span>Amazon EKS</span>
+                  <span>Helm Charts</span>
+                  <span>SQS &amp; SNS</span>
+                  <span>DynamoDB &amp; RDS</span>
+                  <span>Terraform</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+
+          <!-- Case Study 3: Algorithm & DSA Interactive Visualizer Suite -->
+          <div class="col-lg-6 mb-4 project-card-col" data-category="featured architecture fullstack">
+            <div class="case-study-card h-100">
+              <div class="cs-top-bar">
+                <span class="cs-badge badge-algo"><i class="bx bx-code-block"></i> Interactive Engineering Tool</span>
+                <span class="cs-metric-pill">React 18 + Framer Motion</span>
+              </div>
+              <h3 class="cs-title">String Pattern Matching &amp; DSA Decision Tree Visualizers</h3>
+              <p class="cs-summary">
+                An interactive educational suite for visualizing complex string algorithms and data-structure decision
+                trees with deterministic step-by-step playback controls, state inspection, and flowchart mapping.
+              </p>
+
+              <div class="cs-architecture-box">
+                <div class="cs-arch-label">Algorithms &amp; Interactive Capabilities</div>
+                <div class="cs-flow-steps">
+                  <span>KMP (LPS Table)</span>
+                  <span>&bull;</span>
+                  <span>Z-Algorithm (Z-Box)</span>
+                  <span>&bull;</span>
+                  <span>Rabin-Karp (Rolling Hash)</span>
+                  <span>&bull;</span>
+                  <span>Manacher's O(n) Palindromes</span>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+                <ul class="cs-highlights">
+                  <li><strong>Deterministic Playback Engine:</strong> Floating playback controller supporting play,
+                    pause, step-forward, step-back, and reset across precomputed algorithm state snapshots.</li>
+                  <li><strong>DSA Decision Flowchart:</strong> Interactive problem-to-pattern decision tree helping
+                    engineers map constraints to optimal data structures and time complexities.</li>
+                </ul>
+              </div>
+
+              <div class="cs-footer">
+                <div class="cs-tags">
+                  <span>React 18</span>
+                  <span>Tailwind CSS v4</span>
+                  <span>Framer Motion</span>
+                  <span>Vite</span>
+                  <span>Algorithms &amp; DSA</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+
+          <!-- Case Study 4: Client Upload Queue & Analytics Visibility Reconciliation -->
+          <div class="col-lg-6 mb-4 project-card-col" data-category="architecture">
+            <div class="case-study-card h-100">
+              <div class="cs-top-bar">
+                <span class="cs-badge badge-systems"><i class="bx bx-cog"></i> Systems &amp; Data Deep Dive</span>
+                <span class="cs-metric-pill">Concurrency &amp; Data Integrity</span>
+              </div>
+              <h3 class="cs-title">Sequential Rich-Text Upload Queue &amp; Analytics RBAC Reconciliation</h3>
+              <p class="cs-summary">
+                Resolved critical production concurrency and cross-database analytics discrepancies in an enterprise
+                knowledge base serving multi-workspace tenants.
+              </p>
+
+              <div class="cs-architecture-box">
+                <div class="cs-arch-label">Engineering Challenges &amp; Resolutions</div>
+                <ul class="cs-highlights">
+                  <li><strong>Client Upload Concurrency Queue:</strong> Eliminated race conditions during multi-image
+                    clipboard/DOM paste in rich-text editors by intercepting parallel upload triggers and serializing
+                    blob-to-file XHR lifecycles with deterministic error counter recovery.</li>
+                  <li><strong>Cross-DB Analytics Reconciliation:</strong> Diagnosed missing knowledge-base records
+                    between transactional MySQL shards and analytical lakehouse tables, isolating folder-visibility
+                    ACL filtering vs. workspace privilege sync pipelines.</li>
+                </ul>
+              </div>
+
+              <div class="cs-footer">
+                <div class="cs-tags">
+                  <span>JavaScript Concurrency</span>
+                  <span>Data Lakehouse SQL</span>
+                  <span>RBAC / Multi-Workspace</span>
+                  <span>Enterprise SaaS</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+
+          <!-- Full-Stack App 1: Let'z Chat -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="featured fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/chat-app.png" alt="Let'z Chat real-time messaging application screenshot"
+                  loading="lazy">
+                <span class="app-type-badge">Real-Time Full-Stack</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Let'z Chat — Real-Time Messenger</h3>
+                <p class="app-desc">
+                  Full-stack real-time messaging platform featuring bidirectional WebSocket chat synchronization,
+                  user discovery, friend-request workflows (send/accept/reject), and live online/offline presence
+                  indicators.
+                </p>
+                <div class="app-stack">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Socket.io</span>
+                  <span>Express</span>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://letzchat.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/chat-client" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-6.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+
+          <!-- Full-Stack App 2: URL Shortener -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="featured fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/url.png" alt="URL Shortener and click analytics dashboard screenshot"
+                  loading="lazy">
+                <span class="app-type-badge">Backend &amp; Analytics</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">URL Shortener &amp; Analytics Dashboard</h3>
+                <p class="app-desc">
+                  Full-stack link management service with authenticated user accounts, compact hash generation, HTTP
+                  redirection, and an analytics dashboard tracking click counts across shortened URLs.
+                </p>
+                <div class="app-stack">
+                  <span>Node.js</span>
+                  <span>REST API</span>
+                  <span>JavaScript</span>
+                  <span>Auth &amp; Dashboard</span>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-url-shortener.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/URL-Shortener" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full-Stack App 3: COVID-19 Tracker -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="featured fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/covid.png" alt="COVID-19 global and state data visualization dashboard"
+                  loading="lazy">
+                <span class="app-type-badge">Data Visualization</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Global COVID-19 Analytics Tracker</h3>
+                <p class="app-desc">
+                  Interactive React analytics dashboard aggregating country-level and state-level telemetry, rendering
+                  active, recovered, and mortality metrics alongside 30-day historical trend charts.
+                </p>
+                <div class="app-stack">
+                  <span>React</span>
+                  <span>Charting</span>
+                  <span>REST APIs</span>
+                  <span>Responsive UI</span>
                 </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-covid19.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/covid19" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 4: Sudoku -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/sudoku.png" alt="Sudoku puzzle generator and leaderboard web app" loading="lazy">
+                <span class="app-type-badge">Algorithmic Game</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Sudoku Engine &amp; Live Leaderboard</h3>
+                <p class="app-desc">
+                  Dynamic puzzle generator with configurable difficulty tiers, time-based scoring algorithms, board
+                  validation, and a persistent global player leaderboard.
+                </p>
+                <div class="app-stack">
+                  <span>JavaScript</span>
+                  <span>Backtracking / Logic</span>
+                  <span>Leaderboard API</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-sudoku-game.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/sudoku" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 5: Cricket OOP TypeScript -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/cricket.png" alt="TypeScript OOP Cricket Simulator screenshot" loading="lazy">
+                <span class="app-type-badge">TypeScript OOP</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">TypeScript Cricket Match Simulator</h3>
+                <p class="app-desc">
+                  Object-oriented TypeScript sports simulation modeling teams, players, overs, and 60-second timed
+                  innings with automated match summary generation.
+                </p>
+                <div class="app-stack">
+                  <span>TypeScript</span>
+                  <span>OOP Design</span>
+                  <span>HTML5 / CSS3</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-cricket-game.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/ZenClass/tree/master/week6/Day5" target="_blank"
+                  rel="noopener noreferrer" class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 6: NYT Newspaper Reader -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="fullstack">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/newspaper.png" alt="New York Times API single-page reader screenshot"
+                  loading="lazy">
+                <span class="app-type-badge">API Integration</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">New York Times Live News Reader</h3>
+                <p class="app-desc">
+                  Single-page editorial web application integrating the New York Times REST API to stream categorized
+                  top stories, abstracts, and high-resolution media cards.
+                </p>
+                <div class="app-stack">
+                  <span>REST API</span>
+                  <span>Async / Fetch</span>
+                  <span>Responsive Grid</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://single-page-newspaper.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/newyork-times-api" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 7: Hangman -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="all">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/hangman.png" alt="Hangman word game screenshot" loading="lazy">
+                <span class="app-type-badge">Interactive Game</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Hangman Word Challenge</h3>
+                <p class="app-desc">
+                  Difficulty-adaptive word deduction game with hint-weighted point calculation, 6-attempt state machine,
+                  and persistent win/loss streak tracking.
+                </p>
+                <div class="app-stack">
+                  <span>JavaScript</span>
+                  <span>State Management</span>
+                  <span>CSS3</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-hangman-game.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/Hangman" target="_blank" rel="noopener noreferrer"
+                  class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 8: Quick Quiz -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="all">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/quiz.png" alt="Quick Quiz interactive trivia app screenshot" loading="lazy">
+                <span class="app-type-badge">Frontend App</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Quick Quiz — Interactive Trivia</h3>
+                <p class="app-desc">
+                  Dynamic quiz engine with instant answer validation, score tracking, and explanatory solution feedback.
+                </p>
+                <div class="app-stack">
+                  <span>JavaScript</span>
+                  <span>DOM API</span>
+                  <span>HTML5 / CSS3</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharani-quiz.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/ZenClass/tree/master/week5/Day%204" target="_blank"
+                  rel="noopener noreferrer" class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive App 9: Keyboard & UI Calculator -->
+          <div class="col-md-6 col-lg-4 mb-4 project-card-col" data-category="all">
+            <div class="app-card h-100">
+              <div class="app-img-wrap">
+                <img src="assets/img/calculator.png" alt="Calculator web application screenshot" loading="lazy">
+                <span class="app-type-badge">Utility UI</span>
+              </div>
+              <div class="app-card-body">
+                <h3 class="app-title">Dual-Input Web Calculator</h3>
+                <p class="app-desc">
+                  Clean arithmetic calculator supporting synchronized physical keyboard events and touch/click UI
+                  controls.
+                </p>
+                <div class="app-stack">
+                  <span>JavaScript</span>
+                  <span>Keyboard Events</span>
+                  <span>CSS Grid</span>
+                </div>
+              </div>
+              <div class="app-card-footer">
+                <a href="https://bharanij27-calculator.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  class="app-link primary">
+                  <i class="bx bx-link-external"></i> Live Demo
+                </a>
+                <a href="https://github.com/Bharanij27/ZenClass/tree/master/week3/Weekly%20Task" target="_blank"
+                  rel="noopener noreferrer" class="app-link">
+                  <i class="bx bxl-github"></i> Source Code
+                </a>
               </div>
             </div>
           </div>
@@ -445,331 +1025,293 @@
         </div>
       </div>
     </section>
-     -->
-    <!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="Projects" class="blog-mf sect-pt4 route">
+    <!-- ======= Technical Skills & Multi-Cloud Certifications ======= -->
+    <section id="skills" class="section-block section-alt route">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
-              <p class="subtitle-a">
-                A list of things I worked on 💻
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-eyebrow">Technical Depth</span>
+          <h2 class="section-title">Skills Matrix &amp; Cloud Certifications</h2>
+          <p class="section-subtitle">
+            Production-tested across cloud-native backends, agentic AI ecosystems, modern frontend frameworks, and
+            DevOps toolchains.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/chat-app.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://letzchat.netlify.app/" target="_blank">
-                      <h6 class="category">Let'z Chat</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Let'zChat</h3>
-                <p class="card-description">
-                  A Web Chat application build using reactjs, nodejs and socket.io is a real time chat application where user chats are synced.
-                  User can chat with a friend, search for a person, can make a friend request and also can accept or reject friend requests.
-                  User can only talk with their friend.   
-                  User also get to know that his friend is offline or in online. 
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/chat-client" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/covid.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-covid19.netlify.app/" target="_blank">
-                      <h6 class="category">COVID-19 Tracker</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">COVID-19 Tracker</h3>
-                <p class="card-description">
-                  A Web application build using react to keep track of covid-19 cases across the world, which also give
-                  recovered, active,
-                  deaths and total case count by country wise and show as 30 last days details in a graph. Also list out
-                  the state wise affeceted
-                  count for some countries.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/covid19" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/url.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-url-shortener.netlify.app/" target="_blank">
-                      <h6 class="category">URL Shortener</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">URL Shortener</h3>
-                <p class="card-description">
-                  An URL Shortener application build using HTML, CSS, Javascript and NodeJs in backend which will shrink
-                  the long url to short one and
-                  keep track of visited count. After login a dashboard will show all the short url created and its
-                  visited count
-                </p>
-              </div>
-              <div class="card-footer  text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/URL-Shortener" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/sudoku.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-sudoku-game.netlify.app/" target="_blank">
-                      <h6 class="category">Sudoku</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Sudoku</h3>
-                <p class="card-description">
-                  A Responsive Sudoku web application generate game based on the difficulty level user chose and
-                  points will be calculated based on the time. Leaderboard is maintained which shows all the gamers
-                  score
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/sudoku" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/hangman.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-hangman-game.netlify.app/" target="_blank">
-                      <h6 class="category">Hangman</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Hangman</h3>
-                <p class="card-description">
-                  A Hangman Sudoku web application generate game based on the difficulty level user chose and
-                  user will have 6 chances to find out the correct one, points will be calculated based on the remaining
-                  hint.
-                  Keeps track of win and lose count
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/Hangman" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-            </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/calculator.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharanij27-calculator.netlify.app/" target="_blank">
-                      <h6 class="category">Calculator</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Calculator</h3>
-                <p class="card-description">
-                  Simple and Attractive Calculator build using HTML, CSS, and Javascript. Input can be given by both
-                  both keyborad and UI
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/ZenClass/tree/master/week3/Weekly%20Task" target="_blank"
-                    class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+
+        <!-- Multi-Cloud & AI Certifications Highlight -->
+        <div class="certs-banner mb-5 reveal-on-scroll">
+          <div class="certs-header d-flex flex-wrap justify-content-between align-items-center mb-3">
+            <h3 class="certs-title mb-0">
+              <i class="bx bx-check-shield"></i> Verified Cloud &amp; AI Certifications (AWS, GCP, Azure)
+            </h3>
+            <span class="certs-count">4 Industry Certifications</span>
           </div>
           <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/cricket.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-cricket-game.netlify.app/" target="_blank">
-                      <h6 class="category">Cricket</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Cricket</h3>
-                <p class="card-description">
-                  A Cricket Game build with HTML, CSS, and TypeScript. Class concept is used structure the game. Each
-                  player will get 60 seconds time to play.
-                  player need to score within the time limit
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/ZenClass/tree/master/week6/Day5" target="_blank"
-                    class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="cert-card cert-pro">
+                <div class="cert-provider">Amazon Web Services</div>
+                <div class="cert-name">AWS Certified Generative AI Developer</div>
+                <span class="cert-level">Professional</span>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/newspaper.png" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://single-page-newspaper.netlify.app/" target="_blank">
-                      <h6 class="category">Newspaper</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Newspaper</h3>
-                <p class="card-description">
-                  A Single page web application to view news by fetching data from an api
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/newyork-times-api" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
+            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="cert-card">
+                <div class="cert-provider">Amazon Web Services</div>
+                <div class="cert-name">AWS Certified Solutions Architect</div>
+                <span class="cert-level">Associate</span>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <img src="assets/img/quiz.png" class="img-fluid">
+            <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+              <div class="cert-card">
+                <div class="cert-provider">Google Cloud</div>
+                <div class="cert-name">Google Cloud Certified Cloud Engineer</div>
+                <span class="cert-level">Associate</span>
               </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <a href="https://bharani-quiz.netlify.app/" target="_blank">
-                      <h6 class="category">Quick Quiz</h6>
-                    </a>
-                  </div>
-                </div>
-                <h3 class="card-title">Quick Quiz</h3>
-                <p class="card-description">
-                  A Quiz game build using HTML, CSS and Js. A list of disney related quiz will be asked and point will be assigned based on answer.
-                  If the answer is wrong, user can also get to know the answer.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <div class="post-author">
-                  <a href="https://github.com/Bharanij27/ZenClass/tree/master/week5/Day%204" target="_blank" class="github">
-                    <i class="fa fa-lg fa-github"></i> View Code
-                  </a>
-                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="cert-card">
+                <div class="cert-provider">Microsoft Azure</div>
+                <div class="cert-name">Microsoft Certified: Azure AI Engineer</div>
+                <span class="cert-level">Associate</span>
               </div>
             </div>
           </div>
         </div>
-    </section><!-- End Blog Section -->
+
+        <!-- Categorized Skills Bento Grid -->
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-domain-card h-100 reveal-on-scroll">
+              <div class="skill-domain-head">
+                <i class="bx bx-brain"></i>
+                <h3>AI, LLMs &amp; Agentic Systems</h3>
+              </div>
+              <div class="skill-pill-group">
+                <span class="skill-pill highlight">Model Context Protocol (MCP)</span>
+                <span class="skill-pill highlight">Multi-Agent Orchestration</span>
+                <span class="skill-pill highlight">Amazon Bedrock</span>
+                <span class="skill-pill">Amazon SageMaker</span>
+                <span class="skill-pill">RAG Pipelines</span>
+                <span class="skill-pill">Vector Databases</span>
+                <span class="skill-pill">LLMs &amp; Prompt Engineering</span>
+                <span class="skill-pill">Rasa NLP</span>
+                <span class="skill-pill">Claude &amp; GitHub Copilot</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-domain-card h-100 reveal-on-scroll">
+              <div class="skill-domain-head">
+                <i class="bx bx-server"></i>
+                <h3>Backend &amp; API Architecture</h3>
+              </div>
+              <div class="skill-pill-group">
+                <span class="skill-pill highlight">Java 11+ (Spring Boot)</span>
+                <span class="skill-pill highlight">Node.js (NestJS / Express)</span>
+                <span class="skill-pill highlight">Microservices</span>
+                <span class="skill-pill">RESTful APIs</span>
+                <span class="skill-pill">GraphQL</span>
+                <span class="skill-pill">Jersey (JAX-RS)</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">OAuth 2.0 / JWT / SSO</span>
+                <span class="skill-pill">System Design &amp; Data Modeling</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-domain-card h-100 reveal-on-scroll">
+              <div class="skill-domain-head">
+                <i class="bx bxl-aws"></i>
+                <h3>Cloud (AWS) &amp; Persistence</h3>
+              </div>
+              <div class="skill-pill-group">
+                <span class="skill-pill highlight">AWS Lambda (Multi-Region)</span>
+                <span class="skill-pill highlight">API Gateway</span>
+                <span class="skill-pill highlight">Amazon EKS (Kubernetes)</span>
+                <span class="skill-pill">DynamoDB (NoSQL)</span>
+                <span class="skill-pill">Aurora MySQL &amp; RDS</span>
+                <span class="skill-pill">Redis / ElastiCache</span>
+                <span class="skill-pill">SQS &amp; SNS (Event-Driven)</span>
+                <span class="skill-pill">EC2 &amp; S3</span>
+                <span class="skill-pill">High-Availability (HA) &amp; IAM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 mb-4">
+            <div class="skill-domain-card h-100 reveal-on-scroll">
+              <div class="skill-domain-head">
+                <i class="bx bx-code-alt"></i>
+                <h3>Frontend &amp; Interactive UI Engineering</h3>
+              </div>
+              <div class="skill-pill-group">
+                <span class="skill-pill highlight">React (Hooks, Context API)</span>
+                <span class="skill-pill highlight">Redux &amp; Zustand</span>
+                <span class="skill-pill">TypeScript &amp; JavaScript (ES6+)</span>
+                <span class="skill-pill">Angular 2+</span>
+                <span class="skill-pill">Reusable Design Systems</span>
+                <span class="skill-pill">Tailwind CSS &amp; Bootstrap</span>
+                <span class="skill-pill">Socket.io (WebSockets)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-6 mb-4">
+            <div class="skill-domain-card h-100 reveal-on-scroll">
+              <div class="skill-domain-head">
+                <i class="bx bx-infinite"></i>
+                <h3>DevOps, IaC, Testing &amp; Observability</h3>
+              </div>
+              <div class="skill-pill-group">
+                <span class="skill-pill highlight">Terraform &amp; CloudFormation</span>
+                <span class="skill-pill highlight">Docker, Kubernetes &amp; Helm</span>
+                <span class="skill-pill">Jenkins, GitLab CI &amp; AWS CodePipeline</span>
+                <span class="skill-pill">Gradle &amp; Maven</span>
+                <span class="skill-pill">JUnit &amp; Mockito</span>
+                <span class="skill-pill">Splunk, CloudWatch &amp; CloudTrail</span>
+                <span class="skill-pill">Dynatrace, Catchpoint &amp; Haystack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Awards, Publications & Education ======= -->
+    <section id="recognition" class="section-block route">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-eyebrow">Track Record</span>
+          <h2 class="section-title">Awards, Publications &amp; Education</h2>
+          <p class="section-subtitle">
+            Recognized for technical leadership, complex platform migrations, and engineering knowledge sharing.
+          </p>
+        </div>
+
+        <div class="row">
+          <!-- Award 1 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="recognition-card h-100 reveal-on-scroll">
+              <div class="rec-icon"><i class="bx bx-trophy"></i></div>
+              <span class="rec-type">Excellence Award</span>
+              <h3 class="rec-title">Above &amp; Beyond Award</h3>
+              <p class="rec-org">Presidio</p>
+              <p class="rec-desc">
+                Awarded for leading the complex architectural migration of an enterprise conversational AI platform from
+                IBM Watson to Rasa on Kubernetes, improving scalability by 50%.
+              </p>
+            </div>
+          </div>
+
+          <!-- Award 2 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="recognition-card h-100 reveal-on-scroll">
+              <div class="rec-icon"><i class="bx bx-medal"></i></div>
+              <span class="rec-type">2x Award Winner</span>
+              <h3 class="rec-title">Spot Award (2x)</h3>
+              <p class="rec-org">Presidio</p>
+              <p class="rec-desc">
+                Recognized twice for engineering team leadership, sprint execution ownership, and consistent on-time
+                milestone delivery of cloud-native client systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Publication -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="recognition-card h-100 reveal-on-scroll">
+              <div class="rec-icon"><i class="bx bx-book-open"></i></div>
+              <span class="rec-type">Technical Publication</span>
+              <h3 class="rec-title">&ldquo;Deploying Rasa with Efficiency&rdquo;</h3>
+              <p class="rec-org">Engineering Guide</p>
+              <p class="rec-desc">
+                Authored a practical production engineering guide detailing best practices for containerizing and
+                deploying scalable NLP platforms on Kubernetes via Helm Charts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="recognition-card h-100 reveal-on-scroll">
+              <div class="rec-icon"><i class="bx bxs-graduation"></i></div>
+              <span class="rec-type">Academic Foundation</span>
+              <h3 class="rec-title">B.E. in Computer Science</h3>
+              <p class="rec-org">Jeppiaar SRR Engineering College</p>
+              <p class="rec-desc">
+                Graduated December 2020. Strong foundation in data structures, algorithms, distributed operating
+                systems, and database engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <section id="contact" class="section-block section-contact route">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Want to know more about me or like to ask any question about me or the projects I worked on. 
-                        Let's discuss. If I don't know about the stuffs you ask for. I will learn something new
-                        Reach out to me
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> Chennai, TamilNadu, India</li>
-                        <li><span class="ion-email"></span>bharanidharn19519@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href="https://github.com/bharanij27"  target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                        <li><a href="https://www.facebook.com/bharani.dharan.370515"  target="_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/bharanij27/"  target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      </ul>
-                    </div>
+        <div class="contact-glass-card reveal-on-scroll">
+          <div class="row align-items-center">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+              <span class="section-eyebrow">Let's Connect</span>
+              <h2 class="contact-title">Hiring for Senior Full-Stack, Cloud, or AI Systems Roles?</h2>
+              <p class="contact-lead">
+                I enjoy discussing distributed systems architecture, multi-region AWS design, and practical multi-agent
+                AI engineering. Reach out directly via email or LinkedIn for interview conversations or architectural
+                deep dives.
+              </p>
+
+              <div class="contact-direct-actions d-flex flex-wrap align-items-center mt-4">
+                <a href="mailto:bharanidharan19519@gmail.com" class="btn-primary-glow mr-3 mb-2">
+                  <i class="bx bx-envelope mr-1"></i> Email Me Directly
+                </a>
+                <button type="button" id="copyEmailBtn" class="btn-secondary-glass mr-3 mb-2"
+                  data-email="bharanidharan19519@gmail.com">
+                  <i class="bx bx-copy mr-1"></i> <span id="copyEmailText">Copy Email Address</span>
+                </button>
+                <a href="assets/Bharanidharan_Boopalan_Resume.pdf" download="Bharanidharan_Boopalan_Resume.pdf"
+                  class="btn-secondary-glass mb-2">
+                  <i class="bx bx-download mr-1"></i> Resume PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="contact-info-panel">
+                <div class="contact-info-item">
+                  <div class="ci-icon"><i class="bx bx-envelope"></i></div>
+                  <div>
+                    <div class="ci-label">Email</div>
+                    <a href="mailto:bharanidharan19519@gmail.com" class="ci-value">bharanidharan19519@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="ci-icon"><i class="bx bxl-linkedin"></i></div>
+                  <div>
+                    <div class="ci-label">LinkedIn</div>
+                    <a href="https://www.linkedin.com/in/bharanidharan-boopalan" target="_blank"
+                      rel="noopener noreferrer" class="ci-value">linkedin.com/in/bharanidharan-boopalan</a>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="ci-icon"><i class="bx bxl-github"></i></div>
+                  <div>
+                    <div class="ci-label">GitHub</div>
+                    <a href="https://github.com/bharanij27" target="_blank" rel="noopener noreferrer"
+                      class="ci-value">github.com/bharanij27</a>
+                  </div>
+                </div>
+
+                <div class="contact-info-item mb-0">
+                  <div class="ci-icon"><i class="bx bx-map"></i></div>
+                  <div>
+                    <div class="ci-label">Location</div>
+                    <span class="ci-value">Chennai, Tamil Nadu, India</span>
                   </div>
                 </div>
               </div>
@@ -777,47 +1319,42 @@
           </div>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer>
+  <footer class="site-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
-            </div>
-          </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="footer-brand mb-2 mb-md-0">
+          <strong>Bharanidharan Boopalan</strong> &mdash; Senior Full Stack, Cloud &amp; AI Software Engineer
+        </div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/bharanidharan-boopalan" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a>
+          <span>&bull;</span>
+          <a href="https://github.com/bharanij27" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>&bull;</span>
+          <a href="assets/Bharanidharan_Boopalan_Resume.pdf" download="Bharanidharan_Boopalan_Resume.pdf">Resume</a>
         </div>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+  <a href="#page-top" class="back-to-top js-scroll" aria-label="Back to top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main Portfolio JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
